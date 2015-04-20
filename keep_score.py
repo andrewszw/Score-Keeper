@@ -1,5 +1,8 @@
+import os
+
 def printScore(players):
     """ Prints the current score """
+    os.system('clear')
     for x in players:
         print()
         print(x[0] + ": " + str(x[1]))
