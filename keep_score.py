@@ -1,8 +1,8 @@
-import os
+#import os
 
 def printScore(players):
     """ Prints the current score """
-    os.system('clear')
+ #   os.system('clear')
     for x in players:
         print()
         print(x[0] + ": " + str(x[1]))
@@ -31,12 +31,12 @@ def run_game(players):
                 item[1] = item[1] + score
         printScore(players)
     print()
-    print("------------------------------");
+    print("------------------------------")
     print()
     print("Game over! The final score is as follows: ")
     printScore(players)
     
-def main(): 
+def main():
     printUse()
 
     # get the number of players
